@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ImageCardComponent } from './image-card/image-card.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { HomePageComponent } from './home-page/home-page.component';
     ToolbarComponent,
     ImageCardComponent,
     HomePageComponent,
+    NavbarComponent,
     
   ],
   imports: [
