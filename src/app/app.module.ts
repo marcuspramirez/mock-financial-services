@@ -4,6 +4,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +14,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ImageCardComponent } from './image-card/image-card.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ServiceCardsComponent } from './service-cards/service-cards.component';
+import { MissionStatementComponent } from './mission-statement/mission-statement.component';
 
 
 @NgModule({
@@ -21,10 +25,14 @@ import { NavbarComponent } from './navbar/navbar.component';
     ImageCardComponent,
     HomePageComponent,
     NavbarComponent,
+    ServiceCardsComponent,
+    MissionStatementComponent,
     
   ],
   imports: [
     BrowserModule,
+    MatProgressBarModule,
+    MatDividerModule,
     MatSidenavModule,
     MatCardModule,
     MatIconModule,

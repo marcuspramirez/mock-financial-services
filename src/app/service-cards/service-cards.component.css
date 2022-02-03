@@ -1,0 +1,62 @@
+#services-container {
+    display: flex;
+   
+    justify-content: center;
+    background-color: blue;
+}
+
+
+
+.service-one {
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 20px;
+    color: white;
+    font-family: serif;
+    font-size: 30px;
+}
+
+.service-two {
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 20px;
+    color: white;
+    font-family: serif;
+    font-size: 30px;
+}
+
+.service-three {
+    display: flex;
+    align-items: center;
+    background-color: rgb(61, 77, 46);
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 20px;
+    color: white;
+    font-family: serif;
+    font-size: 30px;
+}
+
+.boxes {
+    display: flex;
+}
+
+@media screen and (max-width:800px) { 
+
+    .boxes{
+      flex-direction: column;
+    }
+    
+}    

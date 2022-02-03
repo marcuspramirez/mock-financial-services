@@ -1,3 +1,43 @@
+/*
+ display:flex;
+ flex-directon: row;
+  + + + + + + + + + + + + +
+
+  align-items:center;  vertically
+  justify-content:center;
+
+  ++++++++++++++++++++++++++++
+  +                          +
+  +            d             +
+  +                          +
+  ++++++++++++++++++++++++++++
+
+
+
+
+  flex-directon: column;
+
+  +
+  +
+  +
+  +
+  +
+  +
+  +
+  +
+
+
+  align-items: center;
+  justify-content: flex-end;
+  ++++++++++++++++++++++++++++
+  +                          +
+  +                          +
+  +             d            +
+  ++++++++++++++++++++++++++++
+
+
+
+*/
 /* You can add global styles to this file, and also import other style files */
 
 html,
@@ -12,18 +52,24 @@ body {
 .fin-image {
   height: 500px;
   width: 100%;
-  height: auto;
-  max-width: 860px;
+  max-width: 750px;
+  
+ 
+}
+
+#image2 {
+  margin-top: 30px;
 }
 
 .container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  background-color: navy;
-  margin-right: 10px;
+  
+ 
 }
 
-.navbar {
+#navbar {
   text-align: center;
   background-color: #d96704;
   display: flex;
@@ -34,8 +80,42 @@ body {
   border-bottom: 2px solid blue;
 }
 
-.navTextLogo {
+#navTextLogo {
   padding-top: 14px;
   padding-left: 125px;
   font-family: serif;
+}
+
+#nav-buttons{
+  display: flex;
+  align-items: flex-end;
+  background-color: green;
+  margin-left:100px;
+}
+
+.button{
+  height: 40px;
+  width:80px;
+  font-family: serif;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-left: 125px;
+}
+
+.button:hover{
+  background-color: red;
+}
+
+#button3:hover{
+  background-color: indigo;
+}
+@media screen and (max-width:800px) { 
+.container{
+  flex-direction: column;
+}
+
+  
 }
