@@ -6,6 +6,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ServiceCardsComponent } from './service-cards/service-cards.component';
 import { MissionStatementComponent } from './mission-statement/mission-statement.component';
+import { CdsComponent } from './cds/cds.component';
 
 
 @NgModule({
@@ -27,6 +29,7 @@ import { MissionStatementComponent } from './mission-statement/mission-statement
     NavbarComponent,
     ServiceCardsComponent,
     MissionStatementComponent,
+    CdsComponent,
     
   ],
   imports: [
@@ -38,6 +41,7 @@ import { MissionStatementComponent } from './mission-statement/mission-statement
     MatIconModule,
     MatToolbarModule,
     AppRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule
   ],
   providers: [],
