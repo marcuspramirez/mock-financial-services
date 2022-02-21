@@ -18,6 +18,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ServiceCardsComponent } from './service-cards/service-cards.component';
 import { MissionStatementComponent } from './mission-statement/mission-statement.component';
 import { CdsComponent } from './cds/cds.component';
+import { OtherServicesTextComponent } from './other-services-text/other-services-text.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import { CdsComponent } from './cds/cds.component';
     ServiceCardsComponent,
     MissionStatementComponent,
     CdsComponent,
+    OtherServicesTextComponent,
+    FooterComponent,
     
   ],
   imports: [

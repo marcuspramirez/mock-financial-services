@@ -10,13 +10,14 @@
 .service-one {
     display: flex;
     align-items: center;
-    
+    background-color: #d96704;
+    cursor: pointer;
     height: 100px;
     width: 300px;
     justify-content: center;
-    margin: 100px;
+    margin: 50px;
     border-radius: 20px;
-    color: black;
+    color: white;
     font-family: serif;
     font-size: 30px;
 }
@@ -24,13 +25,14 @@
 .service-two {
     display: flex;
     align-items: center;
-    
+    background-color: #d96704;
+    cursor: pointer;
     height: 100px;
     width: 300px;
     justify-content: center;
-    margin: 100px;
+    margin: 50px;
     border-radius: 20px;
-    color: black;
+    color: white;
     font-family: serif;
     font-size: 30px;
 }
@@ -38,13 +40,14 @@
 .service-three {
     display: flex;
     align-items: center;
-    
+    background-color: #d96704;
+    cursor: pointer;
     height: 100px;
     width: 300px;
     justify-content: center;
-    margin: 100px;
+    margin: 50px;
     border-radius: 20px;
-    color: black;
+    color: white;
     font-family: serif;
     font-size: 30px;
 }
