@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { CdsService } from '../cds.service';
 import { Cd } from './cd.model';
 
@@ -11,6 +12,8 @@ export class CdsComponent implements OnInit {
 
   constructor(private cdService: CdsService ) {}
 
+
+  index = '';
   cds: Cd[] = [];
 
   ngOnInit(): void {
@@ -20,5 +23,7 @@ export class CdsComponent implements OnInit {
     })
    
   }
+
+ 
 
 }

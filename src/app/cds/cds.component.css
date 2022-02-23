@@ -19,3 +19,17 @@
   text-align: center;
   padding: 15px;
 }
+
+.cd-search {
+  text-align: center;
+}
+
+.search-container{
+  
+  display: flex;
+  justify-content: center;
+}
+
+.binded {
+  text-align: center;
+}
