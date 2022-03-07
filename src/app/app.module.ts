@@ -22,6 +22,7 @@ import { CdsComponent } from './cds/cds.component';
 import { OtherServicesTextComponent } from './other-services-text/other-services-text.component';
 import { FooterComponent } from './footer/footer.component';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { MembersComponent } from './members/members.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { UserInfoComponent } from './user-info/user-info.component';
     OtherServicesTextComponent,
     FooterComponent,
     UserInfoComponent,
+    MembersComponent,
     
   ],
   imports: [
