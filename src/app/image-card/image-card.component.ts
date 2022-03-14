@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImageCardComponent implements OnInit {
 
-  constructor() { }
+  loginStatus: string = 'Not Logged In';
+
+
+  constructor() {
+    this.loginStatus = Math.random() > 0.5 ? "logged in" : "Not Logged In"
+    
+   }
 
   ngOnInit(): void {
+  }
+
+  getColor() {
+    return this.loginStatus === 'logged in' ? 'green' : 'red';
   }
 
 }
